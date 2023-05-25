@@ -2,11 +2,11 @@ package com.example.retrofitapp.data.database
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.example.retrofitapp.domain.Meaning
-import com.example.retrofitapp.domain.Word
+import com.example.retrofitapp.domain.model.Meaning
+import com.example.retrofitapp.domain.model.Word
 
 
-@Entity
+@Entity(tableName = "word_info")
 data class DatabaseEntity(
     @PrimaryKey
     val word: String,

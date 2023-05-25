@@ -2,7 +2,7 @@ package com.example.retrofitapp.data.database
 
 import androidx.room.ProvidedTypeConverter
 import androidx.room.TypeConverter
-import com.example.retrofitapp.domain.Meaning
+import com.example.retrofitapp.domain.model.Meaning
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.Types
 

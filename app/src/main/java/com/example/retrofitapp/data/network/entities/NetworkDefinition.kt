@@ -1,11 +1,11 @@
 package com.example.retrofitapp.data.network.entities
 
-import com.example.retrofitapp.domain.Definition
+import com.example.retrofitapp.domain.model.Definition
 
 data class NetworkDefinition(
     val antonyms: List<Any>,
     val definition: String,
-    val example: String,
+    val example: String?,
     val synonyms: List<Any>
 )
 

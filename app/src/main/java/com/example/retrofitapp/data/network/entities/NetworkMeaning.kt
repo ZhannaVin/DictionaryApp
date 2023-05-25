@@ -1,6 +1,6 @@
 package com.example.retrofitapp.data.network.entities
 
-import com.example.retrofitapp.domain.Meaning
+import com.example.retrofitapp.domain.model.Meaning
 
 data class NetworkMeaning(
     val definitions: List<NetworkDefinition>,
